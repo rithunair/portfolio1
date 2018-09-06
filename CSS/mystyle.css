@@ -388,7 +388,7 @@ h6 {
 
 #portifolio-cover {
     height: 100%;
-    background-image: url(.IMAGE/lappp.jpg);
+    background-image: url("../IMAGE/lappp.jpg");
 }
 
 .row.no-gutter [class*=col-] {
