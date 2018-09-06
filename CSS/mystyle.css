@@ -1,0 +1,701 @@
+/*============================================================
+
+                           DEFAULT VALUES:
+
+     font-family      :'Merriweather'
+
+     Orange           :#ffc107 (Buttons,Icons,Lines & Backgrouns)
+     Steel Gray       : #41464b  (Headings) 
+     white            :#fff ( Text with Black background)
+     Navyblue         :#0B0014 (paragraph)#64707b
+     black            :#000000 (nav,footer)
+
+
+=============================================================*/
+
+
+/*============================================================
+                        GENAREL
+=============================================================*/
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    /*    font-family: 'Merriweather', serif;*/
+}
+
+h3 {
+    color: #41464b;
+    text-transform: uppercase;
+}
+
+p {
+    color: black;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+
+/*============================================================
+                        NAV
+=============================================================*/
+
+nav a {
+    text-shadow: #2e2e2e 0 6px 6px;
+    margin-left: 35px;
+}
+
+#head {
+    font-weight: 700;
+    font-size: 35px;
+    text-shadow: #2e2e2e 0 6px 6px;
+}
+
+
+/*============================================================
+                        HOME
+=============================================================*/
+
+#home {
+    height: 100%;
+}
+
+#home-cover {
+    height: 100%;
+    background-image: url(../IMAGe/apple-background-connection-399161.jpg);
+    max-width: 100%;
+    
+}
+
+#home-content-box {
+    height: 100%;
+    width: 100%;
+    display: table;
+}
+
+#home-content-box-inner {
+    display: table-cell;
+    vertical-align: middle;
+    /*    text-align: center;*/
+    padding-top: 200px;
+}
+
+#home-heading h1 {
+    color: yellow;
+    font-size: 70px;
+    font-weight: 700;
+    margin: 20px 0 20px 0;
+    text-shadow: #2e2e2e 0 6px 5px;
+}
+
+
+/*============================================================
+                        Paralex(Genaral)
+=============================================================*/
+
+.bg-parallax {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+/*============================================================
+                        BUTTONS (Genenal)
+=============================================================*/
+
+.btn-general {
+    border-width: 2px;
+    border-radius: 0;
+    padding: 12px 26px 12px 26px;
+    font-size: 18px;
+    font-weight: 700px;
+    text-transform: uppercase;
+}
+
+.btn-white {
+    border-color: orange;
+    color: black;
+}
+
+.btn-white:hover,
+.btn-white:focus {
+    background-color: orange;
+    color: #41464b;
+}
+
+.btn-orng {
+    border-color: #ffc107;
+    color: #ffc107;
+}
+
+.btn-orng:hover,
+.btn-orng:focus {
+    background-color: #ffc107;
+    color: white;
+}
+
+
+/*============================================================
+                      ANIMATE
+=============================================================*/
+
+#home-cover,
+#home-heading,
+#home-btn {
+    animation-duration: .7s;
+}
+
+#home-cover {
+    animation-delay: .1s;
+}
+
+#home-heading {
+    animation-delay: .1s;
+}
+
+#home-btn {
+    animation-delay: .5s;
+}
+/*
+
+=========================================================
+                       BOX SHADOW                  
+
+==========================================================
+*/
+.shadow{
+    
+       webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    
+}
+
+/*============================================================
+                      CONTENT BOX
+=============================================================*/
+
+.content-box {
+    padding: 60px 0 60px 0;
+}
+
+.content-title h3 {
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 0 10px 0;
+    text-shadow: #2e2e2e 0 3px 5px;
+}
+
+.content-title-line {
+    width: 50px;
+    height: 4px;
+    background-color: #ffc107;
+    margin: 0 auto 50px auto;
+}
+
+
+/*============================================================
+                     SERVICES
+=============================================================*/
+
+.service-items {
+    padding: 20px 0 20px 0px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.service-items-icon i {
+    color: #ffc107;
+    float: left;
+    padding: 15;
+    margin-right: 25px;
+    height: 75px;
+    text-align: center;
+    width: 60px;
+}
+
+.service-items:hover .service-items-icon i {
+    color: #fff;
+    background-color: #ffc107;
+}
+
+.service-items-titel h3 {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0 0 20px 0;
+}
+
+.service-item-desc p {
+    margin: 0;
+    padding-left: 85px;
+}
+
+
+/*============================================================
+                      WORK TOGETHER
+=============================================================*/
+
+#together-bg-dgnl {
+    width: 60%;
+    height: 700px;
+    float: right;
+    background-image: url(../IMAGE/);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-left: 200px solid white;
+    border-top: 700px solid transparent;
+}
+
+#together-content-box {
+    float: left;
+    height: 700px;
+}
+
+#together-content-box-outer {
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+
+#together-content-box-inner {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#together .content-title h3 {
+    text-align: left;
+}
+
+#together .content-title-line {
+    margin: 0 0 30px 0;
+}
+
+#together-desc p {
+    margin-bottom: 30px;
+}
+
+
+/*============================================================
+                      SOCIAL  
+=============================================================*/
+
+.social-list {
+    padding-left: 0;
+}
+
+.social-list li {
+    list-style: none;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    margin-right: 6px;
+    margin-top: 10px;
+}
+
+.social-icon i {
+    font-size: 20px;
+}
+
+.icon-gray i {
+    color: #64707b;
+}
+
+.icon-white i {
+    color: #fff;
+}
+
+.social-icon i:hover {
+    color: #ffc107;
+}
+.icon-black i {
+    color: #fff;
+}
+
+.icon-black i:hover {
+    color: black;
+}
+
+/*============================================================
+                      FOOTER  
+=============================================================*/
+
+footer {
+    background-color: #343A40;
+    padding-top: 30px;
+    border-top: 5px solid rgb(0, 0, 0, 0.1);
+}
+
+#ftr-left h3 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    text-shadow: #2e2e2e 0 9px 9px;
+}
+
+#ftr-left p {
+    color: #fff;
+}
+
+address {
+    color: #fff;
+}
+
+address strong,
+#phone strong {
+    letter-spacing: 1px;
+}
+
+
+/*==========*/
+#contact-info p {
+    color: white;
+}
+
+/*
+.bordeee{
+    position:relative;
+    display:inline-block;
+    transition: all 0.3s ease-out;
+}
+*/
+
+h6 {
+    text-align: center;
+    font-size: 30PX;
+    color: #d9d9d9;
+    background-color: orange;
+    text-shadow: #2e2e2e 0 4px 5px;
+}
+
+#footer-bottom {
+    background-color: rgba(0, 0, 0, 0.1);
+   
+}
+#footer-copyrigths p {
+     color: white;
+}
+
+/*====================================================================================================================
+                                                         CSS  FOR PORTIFOLIO PAGE 
+====================================================================================================================*/
+
+#portifolio-cover {
+    height: 100%;
+    background-image: url(../IMAGE/lappp.jpg);
+}
+
+.row.no-gutter [class*=col-] {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.img-wrapper {
+    overflow: hidden;
+}
+
+.img-wrapper img {
+    transition: transform .5s ease;
+}
+
+.img-wrapper img:hover {
+    transform: scale(1.5);
+    cursor: zoom-in;
+}
+
+
+/*============================================================
+         < PORTIFOLIO PAGE >  MY SERVICES
+=============================================================*/
+
+.my_service_cont {
+   ;
+}
+
+.my_service_box {
+    border: 4px solid #ffc107;
+    /*    width: auto;*/
+/*    padding: 20px;*/
+    margin: 40px 0px;
+}
+.my_service_box p{
+/*    padding: 10px;*/
+    margin: 10px 0 20px 0; 
+        
+} 
+.my_service_box_spec {
+    list-style: none;
+    font-size: 20px;
+/*    padding: 10px;*/
+    margin: 20px 0 50px 0;
+}
+
+.my_service_box li {
+    list-style-type: none;
+}
+
+.my_service_box_title {
+    background-color: #ffc107;
+    color: #fff;
+}
+
+.my_service_box-lrg  {
+    
+   padding:40px 0;
+    margin: 0;
+    background-color: #ffc107;
+    color: white;
+    
+        
+}
+
+.my_service_box-lrg h5{
+    color:#ffc107; 
+    background-color: white;
+}
+/*==================================================*/
+/*                  css for RESUME Page             */
+
+
+/*=====================================================*/
+.about {
+/*    background-color:orange;*/
+    height:auto;
+     margin-top:-100PX;
+    color: white;
+    border: 1px solid red;
+    margin-bottom: 100px;
+/*    box-shadow: #2e2e2e 0 4px 5px;*/
+
+}
+
+.about h1 {
+    color: white;
+     font-family: 'Tangerine', serif;
+     font-size: 70px;
+     font-weight: bolder;
+}
+.about p{
+    color: white;
+    font-style: italic;
+}
+
+/*----------Education $$$$$ Timeline section----------*/
+.bold {
+     font-family: 'Shrikhand', cursive;
+     color: white;
+     font-size: 2.5rem;
+     text-shadow: #2e2e7e 0 4px 5px;
+}
+.demo {
+    background: #25303b;
+    padding: 100px 0;
+}
+.heading-title {
+    margin-bottom: 100px;
+    color: #fff;
+}
+.main-timeline {
+    width: 80%;
+    margin: 20px auto;
+    position: relative;
+}
+.main-timeline:before {
+    content: "";
+    display: block;
+    width: 2px;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.2);
+    margin: 0 0 0 -1px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+}
+.main-timeline .timeline {
+    width: 100%;
+    margin-bottom: 20px;
+    position: relative;
+}
+.main-timeline .timeline:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.main-timeline .timeline-content {
+    width: 40%;
+    float: left;
+    margin: 5px 0 0 0;
+    border-radius: 6px;
+}
+.main-timeline .date {
+    display: block;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: #25303b;
+    padding: 5px 0;
+    margin: 0 0 0 -36px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    font-size: 12px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.5);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    -webkit-box-shadow: 0 0 0 7px #25303b;
+    box-shadow: 0 0 0 7px #25303b;
+}
+.main-timeline .date span {
+    display: block;
+    text-align: center;
+}
+.main-timeline .day,
+.main-timeline .year {
+    font-size: 10px;
+}
+.main-timeline .month {
+    font-size: 18px;
+}
+.main-timeline .title {
+    padding: 15px;
+    margin: 0;
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    border-radius: 6px 6px 0 0;
+    position: relative;
+}
+.main-timeline .title:after {
+    content: "";
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 20px;
+    right: -5px;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+.main-timeline .description {
+    padding: 15px;
+    margin: 0;
+    font-size: 14px;
+    color: #656565;
+    background: #fff;
+    border-radius: 0 0 6px 6px;
+}
+.main-timeline .timeline:nth-child(2n+2) .timeline-content {
+    float: right;
+}
+.main-timeline .timeline:nth-child(2n+2) .title:after {
+    left: -5px;
+}
+.main-timeline .timeline:nth-child(1) .title,
+.main-timeline .timeline:nth-child(1) .title:after {
+    background: #9f84c4;
+}
+.main-timeline .timeline:nth-child(2) .title,
+.main-timeline .timeline:nth-child(2) .title:after {
+    background: #02a2dd;
+}
+.main-timeline .timeline:nth-child(3) .title,
+.main-timeline .timeline:nth-child(3) .title:after {
+    background: #58b25e;
+}
+.main-timeline .timeline:nth-child(4) .title,
+.main-timeline .timeline:nth-child(4) .title:after {
+    background: #eab715;
+}
+.main-timeline .timeline:nth-child(5) .title,
+.main-timeline .timeline:nth-child(5) .title:after {
+    background: pink;
+}
+@media only screen and (max-width: 990px) {
+    .main-timeline {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .main-timeline:before,
+    .main-timeline .date {
+        left: 6%;
+    }
+    .main-timeline .timeline-content {
+        width: 85%;
+        float: right;
+    }
+    .main-timeline .title:after {
+        left: -5px;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .main-timeline:before,
+    .main-timeline .date {
+        left: 12%;
+    }
+    .main-timeline .timeline-content {
+        width: 75%;
+    }
+    .main-timeline .date {
+        width: 60px;
+        height: 60px;
+        margin-left: -30px;
+    }
+    .main-timeline .month {
+        font-size: 14px;
+    }
+}
+
+
+/*------------End of education timeline----------------*/
+/*
+=====================================================================================
+
+                   CSS FOR CONTACT PAGE
+
+=====================================================================================*/
+#map{
+    width: 100%;
+    height: 400px;
+}
+
+
+.mapContainer{
+    width:50%;
+    position: relative;
+}
+.mapContainer a.direction-link {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    z-index: 100010;
+    color: #FFF;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 25px;
+    padding: 8px 20px 8px 50px;
+    background: #0094de;
+    background-image: url('direction-icon.png');
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+.mapContainer a.direction-link:hover {
+    text-decoration: none;
+    background: #0072ab;
+    color: #FFF;
+    background-image: url('direction-icon.png');
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+
+
+
+
